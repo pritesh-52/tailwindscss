@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+  <body class="bg-zinc-100">
+    <div>
+      <nav class="bg-white py-3 px-3 font">
+        <ul class="flex">
+          <li>
+            <img src="S.png" width="40px" class="ml-4 rounded-t-lg" />
+          </li>
+          <li class="mx-4 mt-3 font-semibold text-lg">Sellfy Demo Store</li>
+          <li class="mx-3 my-3 font-semibold text-lg">About</li>
+          <li class="mx-4 my-3 font-semibold text-lg">Contact</li>
+          <li class="ml-auto my-3 font-semibold text-lg mr-4">Sign in</li>
+        </ul>
+      </nav>
+    </div>
+
+    <!---->
+    <div class="mt-7 text-center font-bold text-5xl">
+      <h1>Checkout</h1>
+    </div>
+
+    <div class="flex mt-11">
+      <div class="box-border bg-white heigh w-3/5 p-4 ml-11">
+        <h1 class="font-bold text-slate-600 ml-2 text-xl">
+           SHOPPING CART
+          </h1>
+          <hr class="mt-4" />
+      </div>
+      <div class="flex flex-col ml-11">
+        <div class="box-border bg-white h-48 wid p-4">
+          <h1 class="font-bold text-slate-600 ml-2 text-xl">
+            YOUR INFORMATION
+          </h1>
+          <hr class="mt-4" />
+          <h1 class="mt-3 ml-2 text-gray-400 text-lg font-semibold">Email</h1>
+          <div class="mt-2 ml-2">
+            <input
+              type="text"
+              name="email"
+              placeholder="techholding@gmail.com"
+              required
+              class="h-12 w-96 border-solid border-2 border-gray-400 mt-1 text-justify"
+            />
+          </div>
+        </div>
+
+        <div class="box-border bg-white h-4/6 wid p-4 mt-5">
+          <h1 class="font-bold text-slate-600 ml-2 text-xl">PAYMENT OPTIONS</h1>
+          <hr class="mt-4" />
+          <div class="box-border bg-zinc-200 h-14 w-96 p-4 mt-5 ml-3">
+            <ul class="flex ml-1 mb-10">
+                <li class="">
+                    <img src="pypal.png" class="h-7 w-44"/>
+                </li>
+                <li class="">
+                    <img src="payment.png" class="h-7 w-44"/>
+                </li>
+            </ul>
+          </div>
+         <div class="mt-3">
+                <button type="button" class="box-border bg-[#008000] h-16 w-96 p-4 mt-5 ml-3 text-white font-semibold text-2xl">Buy Now</button>
+         </div> 
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
